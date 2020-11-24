@@ -1,0 +1,144 @@
+﻿<Window x:Name="window" x:Class="Solarni_Sistem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Solarni_Sistem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600" Background="Black" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="gridWindow" Opacity="0.7">
+        <Canvas x:Name="canvasWIndow" HorizontalAlignment="Left" Height="866" Margin="2,1,0,0" VerticalAlignment="Top" Width="1590">
+            <Canvas x:Name="canvas" Height="771" Canvas.Left="10" Canvas.Top="10" Width="1210">
+                <Ellipse x:Name="orbita_merkura" Fill="#008282E8" HorizontalAlignment="Left" Height="178" Stroke="#FF6E99CD" Width="284" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="462" Canvas.Top="127" Tag="8">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_venere" Fill="#008282E8" HorizontalAlignment="Left" Height="237" Stroke="#FF6E99CD" Width="384" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="412" Canvas.Top="112" Tag="20">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_zemlje" Fill="#008282E8" HorizontalAlignment="Left" Height="290" Stroke="#FF6E99CD" Width="466" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="371" Canvas.Top="97" Tag="22">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_marsa" Fill="#008282E8" HorizontalAlignment="Left" Height="360" Stroke="#FF6E99CD" Width="582" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="313" Canvas.Top="82" Tag="12">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_jupitera" Fill="#008282E8" HorizontalAlignment="Left" Height="465" Stroke="#FF6E99CD" Width="750" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="234" Canvas.Top="64" Tag="60">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_saturna" Fill="#008282E8" HorizontalAlignment="Left" Height="547" Stroke="#FF6E99CD" Width="881" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="168" Canvas.Top="45" Tag="102">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_urana" Fill="#008282E8" HorizontalAlignment="Left" Height="635" Stroke="#FF6E99CD" Width="1022" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="98" Canvas.Top="27" Tag="33">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="orbita_neptuna" Fill="#008282E8" HorizontalAlignment="Left" Height="718" Stroke="#FF6E99CD" Width="1154" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" StrokeDashCap="Square" StrokeThickness="0.3" Canvas.Left="40" Canvas.Top="20" Tag="32">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="179.893"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Rectangle x:Name="sunce" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" RenderTransformOrigin="0.5,0.5" Height="110" Canvas.Left="552" Canvas.Top="154" Width="110">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="star_sun.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="merkur" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="8" Height="8" RenderTransformOrigin="0.51,0.48" Canvas.Left="600" Canvas.Top="302">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/merkur.png" TileMode="FlipX" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="venera" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="20" Height="20" RenderTransformOrigin="0.5,0.5" Canvas.Left="594" Canvas.Top="340">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/venus.png" TileMode="FlipX" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="zemlja" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="22" RenderTransformOrigin="0.727,0" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" IsManipulationEnabled="True" Canvas.Left="593" Canvas.Top="376">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/earth.png" TileMode="FlipX" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="mars" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="12" Height="12" RenderTransformOrigin="0.5,0.5" Canvas.Left="598" Canvas.Top="436">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/mars.png" TileMode="FlipX" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="jupiter" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="60" Height="60" RenderTransformOrigin="0.5,0.5" Canvas.Left="574" Canvas.Top="498">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/jupiter.png" TileMode="FlipX" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="saturn" Stroke="White" StrokeThickness="0" Width="102" Height="102" RenderTransformOrigin="0.5,0.5" Canvas.Left="552" Canvas.Top="543" RadiusX="90" RadiusY="180">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/saturn1.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="uran" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="33" Height="33" RenderTransformOrigin="0.5,0.5" Canvas.Left="588" Canvas.Top="645">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/Uranus.png" TileMode="FlipX" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="neptun" Stroke="White" StrokeThickness="0" RadiusX="90" RadiusY="90" Width="32" Height="32" RenderTransformOrigin="0.5,0.5" Canvas.Left="588" Canvas.Top="712">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Resources/Neptune.png" TileMode="FlipX" Stretch="UniformToFill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Canvas>
+        </Canvas>
+        <Button x:Name="btnSekvencijalno" Content="Započni sekvencijalno izvršenje" HorizontalAlignment="Left" Margin="163,252,0,0" VerticalAlignment="Top" Width="217" Height="32" Click="btnSekvencijalno_Click"/>
+        <TextBox x:Name="txtSekvencijalno" HorizontalAlignment="Left" Height="22" Margin="163,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" TextAlignment="Center" IsEnabled="False"/>
+        <Button x:Name="btnParalelno" Content="Započni paralelno izvršenje" HorizontalAlignment="Left" VerticalAlignment="Top" Width="217" Height="32" Click="btnParalelno_Click" Margin="162,347,0,0"/>
+        <TextBox x:Name="txtParalelno" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" TextAlignment="Center" Margin="162,394,0,0" IsEnabled="False"/>
+    </Grid>
+</Window>
